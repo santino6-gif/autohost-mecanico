@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taller Mecánico en Playa del Carmen | Autohost - Servicio Profesional</title>
+<meta name="description" content="Taller mecánico confiable en Playa del Carmen. Autohost ofrece diagnóstico preciso, precios transparentes, frenos, aire acondicionado, reparación de motor. Atención en Español e Inglés. ¡Agenda hoy!">
+<meta name="keywords" content="taller mecanico playa del carmen, mecanico en playa del carmen, auto repair playa del carmen, car mechanic playa del carmen, diagnostico computarizado, reparacion de motor">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  /* Basic Styles */
+  body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #f8f9fa;
+    color: #222;
+    line-height: 1.6;
+  }
+
+  /* Typography */
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0D1B2A;
+  }
+
+  /* Utility Classes */
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background: #E63946; /* A clear accent color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+
+  .btn:hover {
+    background: #c12e3a;
+  }
+
+  .icon-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .icon-list li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+  }
+
+  /* Hero Section */
+  header {
+    background: #0D1B2A; /* Dark blue from previous version */
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    padding: 80px 20px;
+    position: relative;
+    z-index: 10;
+  }
+
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .hero-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+  }
+
+  /* Services Section */
+  .services {
+    padding: 50px 0;
+  }
+
+  .services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .services-text {
+    flex: 1;
+  }
+
+  .services-img {
+    flex: 1;
+    text-align: center;
+  }
+
+  .services-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .services-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  /* SEO Keywords Section */
+  .seo-keywords {
+    background: #e9ecef;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  /* Why Choose Us Section */
+  .why-us {
+    padding: 50px 0;
+  }
+
+  .why-us ul li:before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #2a9d8f;
+    font-weight: bold;
+  }
+
+  /* English Section */
+  .english-section {
+    background: #0D1B2A;
+    color: white;
+    padding: 50px 0;
+  }
+
+  .english-section h2, .english-section h3 {
+    color: white;
+  }
+
+  /* Location Section */
+  .location {
+    padding: 50px 0;
+  }
+
+  .location-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  .location-info {
+    flex: 1;
+  }
+
+  .location-map {
+    flex: 1;
+  }
+
+  .location-map img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Final CTA */
+  .final-cta {
+    background: #E63946;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .final-cta h2 {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .final-cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .final-cta .btn {
+    background: white;
+    color: #E63946;
+  }
+
+  .final-cta .btn:hover {
+    background: #f8f9fa;
+  }
+
+  /* Footer */
+  footer {
+    background: #0D1B2A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Responsive Adjustments */
+  @media(max-width: 768px) {
+    .services-grid, .location-grid {
+      flex-direction: column;
+    }
+    
+    .services-list {
+      columns: 1;
+    }
+    
+    header h1 {
+      font-size: 28px;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero-content">
+      <div class="container">
+        <h1>Taller Mecánico en Playa del Carmen – Autohost</h1>
+        <p>Servicio Automotriz Profesional, Honesto y Rápido</p>
+        <p>¿Buscas un taller mecánico en Playa del Carmen confiable?<br>
+           En Autohost Taller Mecánico, ofrecemos diagnóstico preciso, precios transparentes y reparaciones garantizadas.</p>
+        <ul class="icon-list" style="display:inline-block; text-align:left; color:white;">
+          <li>🔧 Agenda hoy mismo</li>
+          <li>📲 WhatsApp inmediato</li>
+          <li>📍 Ubicados en Playa del Carmen, Quintana Roo</li>
+        </ul>
+        <div>
+          <a href="#contacto" class="btn">Agendar Servicio</a>
+          <a href="#" class="btn">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <img src="IMAGE_1_PLACEHOLDER.jpg" alt="Taller Mecánico Autohost en Playa del Carmen" class="hero-img">
+  </header>
+
+  <section class="services">
+    <div class="container">
+      <h2>Servicios de Mecánica en Playa del Carmen</h2>
+      <div class="services-grid">
+        <div class="services-text">
+          <p>En Autohost ofrecemos:</p>
+          <ul class="services-list">
+            <li>Cambio de aceite y filtros</li>
+            <li>Frenos y suspensión</li>
+            <li>Diagnóstico computarizado</li>
+            <li>Reparación de motor</li>
+            <li>Aire acondicionado automotriz</li>
+            <li>Afinaciones completas</li>
+            <li>Servicio para flotillas</li>
+          </ul>
+        </div>
+        <div class="services-img">
+          <img src="IMAGE_2_PLACEHOLDER.jpg" alt="Mecánico realizando un servicio en Playa del Carmen">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seo-keywords">
+    <div class="container">
+      <h2>Mecánico cerca de mí en Playa del Carmen</h2>
+      <p>Si estás buscando:</p>
+      <ul style="list-style:none; padding:0; display:inline-block; text-align:left;">
+        <li>✔ Mecánico cerca de mí</li>
+        <li>✔ Auto repair in Playa del Carmen</li>
+        <li>✔ Car mechanic Playa del Carmen</li>
+      </ul>
+      <p>Somos tu mejor opción local.</p>
+    </div>
+  </section>
+
+  <section class="why-us">
+    <div class="container">
+      <h2>🚗 ¿Por Qué Elegir Autohost?</h2>
+      <ul class="icon-list">
+        <li>✔ Más de 10 años de experiencia</li>
+        <li>✔ Técnicos certificados</li>
+        <li>✔ Atención en Español e Inglés</li>
+        <li>✔ Garantía en reparaciones</li>
+        <li>✔ Servicio rápido para locales y turistas</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="english-section">
+    <div class="container">
+      <h2>(English Section)<p> Auto Repair in Playa del Carmen</h2>
+      <p>Looking for a trusted mechanic in Playa del Carmen?<br>
+         Autohost provides professional diagnostics, transparent pricing, and fast turnaround.</p>
+      <h3>We serve:</h3>
+      <ul>
+        <li>Residents</li>
+        <li>Expats</li>
+        <li>Tourists</li>
+        <li>Fleet vehicles</li>
+        <li>All foreign vehicles</li>
+      </ul>
+      <p>Call us today for reliable car repair in Playa del Carmen. -- Tel: +52-984-139-3099</p>
+    </div>
+  </section>
+
+<section class="location" id="contacto">
+  <div class="container">
+    <h2>📍 Ubicación – Taller Mecánico en Playa del Carmen</h2>
+    <div class="location-grid">
+      <div class="location-info">
+        <ul class="icon-list">
+          <li>📍 14 norte, av 110 norte esq, Ejidal, 77712 <br>   Playa del Carmen, Q.R., Mexico</li>
+          <li>📞 <a href="tel:+529841393099" style="color: #0D1B2A; text-decoration: none; font-weight: 600;">+52 984 139 3099</a></li>
+          <li>🕒 Lunes a Sábado 9:00 AM – 6:30 PM</li>
+          <li>📲 WhatsApp disponible</li>
+        </ul>
+        <p><small>Click en el mapa para abrir navegación GPS <br> English: Click on the map to open GPS navigation</small></p>
+      </div>
+      
+      <div class="location-map">
+        <a href="https://share.google/ybf7eOytfoldAfNHb" target="_blank" rel="noopener noreferrer">
+          <img src="IMAGE_3_PLACEHOLDER.jpg" alt="Mapa de ubicación de Autohost Taller Mecánico" style="cursor: pointer; transition: transform 0.3s ease;">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="final-cta">
+    <div class="container">
+      <h2>Tu auto merece atención profesional.</h2>
+      <p>Agenda tu servicio hoy mismo.</p>
+      <div>
+        <a href="tel:+529841393099" class="btn">🔧 Agendar Servicio</a>
+        <a href="tel:+529841393099" class="btn">📲 Enviar WhatsApp</a>
+      </div>
+       <p>Book your service today.</p>   
+       </div>
+  </section>
+  
+   <footer>
+    <div class="container">
+      <p>© 2026 Autohost Taller Mecánico | Playa del Carmen</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
